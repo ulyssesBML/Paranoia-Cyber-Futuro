@@ -1,0 +1,63 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Um RPG onde com algumas opções você decide o futuro do seu personagem e da humanidade, não acabe com ela por favor.",
+          "examplePhrases": [
+            "Alexa, Jogar Paranoia de um Cyber Futuro",
+            "Alexa, Iniciar Paranoia De Um Cyber Futuro"
+          ],
+          "keywords": [
+            "jogos",
+            "game",
+            "futuro",
+            "cyber",
+            "divertido",
+            "português",
+            "entretenimento",
+            "diversão",
+            "lazer",
+            "alegria",
+            "passatempo"
+          ],
+          "name": "Paranoia De Um Cyber Futuro",
+          "description": "Nesse jogo você é transportado pro futuro, para salvar a humanidade do temível cyber chess 7000, para isso você navegara pela história sempre utilizando duas opções, onde elas determinam o seu futuro e o da humanidade.  Bora jogar não vai se arrepender. \u003d)\n\nEsse jogo tende a ser evoluído com o tempo com os feedbacks dos usuários, então está aberto para comentários construtivos de sugestões para história e de melhorias no enredo.",
+          "smallIconUri": "file://assets/images/pt-BR_smallIconUri.png",
+          "updatesDescription": "Essa versão introduz a mecânica e a história básica do jogo.",
+          "largeIconUri": "file://assets/images/pt-BR_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "To test this skill, the person who test most speak Brazil portuguese, its a easy game, the action are:\n- \"Iniciar\" to start the game.\n- \"opção 1\" ou \"opção 2\" to select the option,.\n- \"ajuda\" to get help.\n- \"reiniciar\" to restart the game.\n- \"Sair do jogo\" to close the game.",
+      "category": "GAMES",
+      "distributionCountries": [
+        "BR",
+        "PT",
+        "AO",
+        "TL",
+        "GQ",
+        "GW",
+        "ST",
+        "GN"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:054307382014:function:4300fb25-2fe4-4ed1-bf2e-52e7cec236d6:Release_1"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

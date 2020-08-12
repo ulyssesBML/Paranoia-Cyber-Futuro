@@ -1,0 +1,102 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "paranoia de um cyber futuro",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "Cancelar"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "Me explica esse jogo",
+            "Como faz ",
+            "Não entendi",
+            "Me ajuda",
+            "Ajuda"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Sair do jogo",
+            "acabar jogo",
+            "sair",
+            "parar jogo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": [
+            "go to home"
+          ]
+        },
+        {
+          "name": "IniciarJogo",
+          "slots": [],
+          "samples": [
+            "Começar",
+            "iniciar"
+          ]
+        },
+        {
+          "name": "ChooseOption",
+          "slots": [
+            {
+              "name": "option",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "Vai ser a opção {option}",
+            "Vamos com a opção {option}",
+            "Quero a opção {option}",
+            "Escolher opção {option}",
+            "Opção {option}"
+          ]
+        },
+        {
+          "name": "RestartGame",
+          "slots": [],
+          "samples": [
+            "resetar",
+            "Começar de novo",
+            "Voltar pro começo",
+            "Reiniciar ",
+            "Recomeçar"
+          ]
+        },
+        {
+          "name": "Repete",
+          "slots": [],
+          "samples": [
+            "Repete",
+            "Fala de novo",
+            "Repetir"
+          ]
+        },
+        {
+          "name": "DidNotUnderstand",
+          "slots": [],
+          "samples": [
+            "Jogo bobo",
+            "Jogar",
+            "Loucura",
+            "Procrastinar ",
+            "Ir pro trabalho",
+            "Isso é ruim",
+            "acordar triste",
+            "acordar feliz",
+            "La La La",
+            "Não sei"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "17"
+}
